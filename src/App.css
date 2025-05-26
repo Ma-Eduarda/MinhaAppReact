@@ -4,25 +4,11 @@
     box-sizing: border-box;
 }
 
+html,
+body,
 #root {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-body {
+    height: 100%;
     font-family: Arial, sans-serif;
-    background-color: rgba(0, 162, 255, 0.123);
-}
-
-footer {
-    font-size: 0.9rem;
-}
-
-.carousel-img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
 }
 
 .page-container {
@@ -31,6 +17,18 @@ footer {
     min-height: 100vh;
 }
 
-.content-wrap {
+main {
     flex: 1;
+    
+}
+
+footer {
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
