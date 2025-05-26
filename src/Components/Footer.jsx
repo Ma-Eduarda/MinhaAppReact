@@ -33,7 +33,6 @@ function Footer() {
                         <p>email@fakeemail.com</p>
                         <p>Phone: +1(800)867-5309</p>
                     </Col>
-
                 </Row>
             </Container>
         </footer>

@@ -7,13 +7,7 @@ const Main = () => {
     return (
         <main>
             <div
-                style={{
-                    maxWidth: "800px",
-                    margin: "2em auto",
-                    marginTop: "50px",
-                    marginBottom: "50px",
-                }}
-            >
+                style={{maxWidth: "800px", margin: "2em auto", marginTop: "50px", marginBottom: "50px"}}>
                 <Carousel>
                     <Carousel.Item>
                         <img
@@ -56,16 +50,7 @@ const Main = () => {
             </div>
 
             <section
-                style={{
-                    marginTop: "50px",
-                    textAlign: "center",
-                    maxWidth: "800px",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                    padding: "0 1em",
-                    fontSize: "1em",
-                }}
-            >
+                style={{marginTop: "50px", textAlign: "center", maxWidth: "800px", marginLeft: "auto", marginRight: "auto", padding: "0 1em", fontSize: "1em"}}>
                 <hr />
 
                 <h2 style={{ fontSize: "2rem", marginBottom: "1em" }}>About us</h2>
